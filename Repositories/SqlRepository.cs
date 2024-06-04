@@ -28,7 +28,7 @@ namespace Repositories
 
             try
             {
-                using (var conexaosql = SqlConnection.Instance) // Usando a instância única da conexão
+                using (var conexaosql = new SqlConnection(strConn)) 
                 {
                     conexaosql.Open();
                     using (SqlCommand cmd = new SqlCommand(sql, conexaosql))

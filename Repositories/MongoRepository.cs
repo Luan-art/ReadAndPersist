@@ -13,8 +13,6 @@ namespace Repositories
 
         public MongoRepository() { }
 
-        public static MongoRepository Instance => MongoConnection.Instance;
-
         public bool Atualizar(List<Radar> radares)
         {
             Console.WriteLine("Mongo");
