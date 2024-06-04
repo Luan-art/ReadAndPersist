@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Controllers", "Controllers\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services", "Services\Services.csproj", "{55639039-2CFF-4D4B-9995-E4E97BFF8D1B}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Models", "..\RadarPersist\Models\Models.csproj", "{0DACE498-5EB7-4019-907B-1F7B0FF7549E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{55639039-2CFF-4D4B-9995-E4E97BFF8D1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{55639039-2CFF-4D4B-9995-E4E97BFF8D1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{55639039-2CFF-4D4B-9995-E4E97BFF8D1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DACE498-5EB7-4019-907B-1F7B0FF7549E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DACE498-5EB7-4019-907B-1F7B0FF7549E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DACE498-5EB7-4019-907B-1F7B0FF7549E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DACE498-5EB7-4019-907B-1F7B0FF7549E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
